@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Decisions.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Combinatorics" Version="1.1.0.19" />
+    <PackageReference Include="Skunked" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.4" />
+  </ItemGroup>
+
+</Project>
