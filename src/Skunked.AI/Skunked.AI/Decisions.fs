@@ -5,10 +5,10 @@ open Skunked.Score
 open Skunked.PlayingCards
 open System.Collections.Generic
 
-    let calculator = new ScoreCalculator();
+    let private calculator = new ScoreCalculator();
     let deck = new Deck()
     let possibleRemaining cards = deck |> Seq.except cards
-    let combinations(cards: IEnumerable<Card>) = new Combinations<Card>(new List<Card>(cards), 4)
+    let combinations(cards: seq<Card>) = new Combinations<Card>(new List<Card>(cards), 4)
 
     let getPossibleCombos(handCombinations: Combinations<Card>, possibleStarterCards: Collections.seq<Card>) =
                 handCombinations 
