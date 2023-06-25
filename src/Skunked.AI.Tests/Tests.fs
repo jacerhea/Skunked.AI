@@ -2,8 +2,7 @@ module Tests
 
 open System
 open Xunit
-open Skunked.AI
-open Skunked.PlayingCards
+open Skunked.Cards
 
 [<Fact>]
 let ``Max Average Decision For Six Cards and Two Throw Aways`` () =

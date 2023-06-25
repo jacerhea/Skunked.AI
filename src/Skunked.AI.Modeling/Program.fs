@@ -3,7 +3,7 @@ open System
 open System.Collections.Generic
 open Combinatorics.Collections
 open FSharp.Collections.ParallelSeq
-open Skunked.PlayingCards
+open Skunked.Cards
 open System.IO
 
 [<EntryPoint>]
