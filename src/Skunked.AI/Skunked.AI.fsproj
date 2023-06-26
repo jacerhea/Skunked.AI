@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Skunked.AI</Title>
+		<Authors>Jace Rhea</Authors>
+		<Description>AI to deteremine the best choice of card to discard in a game of Cribbage.</Description>
+		<Copyright>2023</Copyright>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Version>2.1.0</Version>
+		<PackageProjectUrl>https://github.com/jacerhea/Skunked</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/jacerhea/Skunked</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Decisions.fs" />
+		<Compile Include="AiPlayer.fs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Skunked" Version="2.0.0" />
+	</ItemGroup>
+
+</Project>

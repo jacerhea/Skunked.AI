@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Skunked.AI", "Skunked.AI\Skunked.AI.fsproj", "{E7624C99-FC4A-488F-A61D-8C5670A84E40}"
-EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Skunked.AI.Tests", "Skunked.AI.Tests\Skunked.AI.Tests.fsproj", "{0149E8AA-6A96-41F5-ACB2-9328109DBD21}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Skunked.AI.Modeling", "Skunked.AI.Modeling\Skunked.AI.Modeling.fsproj", "{4EC4F0E6-5944-4170-BC09-7D79236638C3}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Skunked.AI", "Skunked.AI\Skunked.AI.fsproj", "{6EA37DCA-779D-4A48-BF06-250BB1D4BBB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7624C99-FC4A-488F-A61D-8C5670A84E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7624C99-FC4A-488F-A61D-8C5670A84E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7624C99-FC4A-488F-A61D-8C5670A84E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7624C99-FC4A-488F-A61D-8C5670A84E40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0149E8AA-6A96-41F5-ACB2-9328109DBD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0149E8AA-6A96-41F5-ACB2-9328109DBD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0149E8AA-6A96-41F5-ACB2-9328109DBD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{4EC4F0E6-5944-4170-BC09-7D79236638C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EC4F0E6-5944-4170-BC09-7D79236638C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EC4F0E6-5944-4170-BC09-7D79236638C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA37DCA-779D-4A48-BF06-250BB1D4BBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA37DCA-779D-4A48-BF06-250BB1D4BBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA37DCA-779D-4A48-BF06-250BB1D4BBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA37DCA-779D-4A48-BF06-250BB1D4BBB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
