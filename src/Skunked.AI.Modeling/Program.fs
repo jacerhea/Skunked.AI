@@ -1,5 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-open System
+﻿open System
 open System.Collections.Generic
 open Combinatorics.Collections
 open FSharp.Collections.ParallelSeq

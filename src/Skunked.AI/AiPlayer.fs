@@ -8,7 +8,7 @@ module AiPlayer =
     open Skunked.Players
     open Skunked.Rules
 
-    type optimizedPlayer(id) = 
+    type OptimizedPlayer(id) = 
         let idInternal = id
 
         interface  IGameRunnerPlayer with
