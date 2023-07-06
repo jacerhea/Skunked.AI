@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -11,7 +11,7 @@
 		<Description>AI to deteremine the best choice of card to discard in a game of Cribbage.</Description>
 		<Copyright>2023</Copyright>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-		<Version>2.1.0</Version>
+		<Version>2.2.0</Version>
 		<PackageProjectUrl>https://github.com/jacerhea/Skunked</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/jacerhea/Skunked</RepositoryUrl>
 	</PropertyGroup>
@@ -29,7 +29,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Skunked" Version="2.0.0" />
+		<PackageReference Include="Skunked" Version="2.1.0" />
 	</ItemGroup>
 
 </Project>

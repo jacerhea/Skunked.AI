@@ -12,7 +12,7 @@
     <ItemGroup>
         <PackageReference Include="Combinatorics" Version="2.0.0" />
         <PackageReference Include="FSharp.Collections.ParallelSeq" Version="1.2.0" />
-        <PackageReference Include="Skunked" Version="2.0.0" />
+        <PackageReference Include="Skunked" Version="2.1.0" />
     </ItemGroup>
 
     <ItemGroup>
